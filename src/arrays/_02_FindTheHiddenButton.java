@@ -55,13 +55,13 @@ public class _02_FindTheHiddenButton implements ActionListener {
 
 		buttons[rand].setText("ME");
 		try {
-			Thread.sleep(1000);
+			Thread.sleep(50);
 		} catch (InterruptedException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
 		buttons[rand].setText("");
-		buttons[rand] = button;
+	
 		// 5. Make a for loop to iterate through the JButton array
 		// 6. initialize each JButton in the array
 		// 7. add the ActionListener to each JButton
